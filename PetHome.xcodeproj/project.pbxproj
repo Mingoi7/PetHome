@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		125B71FE2B7626C100D2A07B /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B71FD2B7626C100D2A07B /* TabBar.swift */; };
+		125B72002B7636A800D2A07B /* ParkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B71FF2B7636A800D2A07B /* ParkView.swift */; };
+		125B72042B76442400D2A07B /* crossmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B72032B76442400D2A07B /* crossmodel.swift */; };
+		125B72062B76456B00D2A07B /* park.json in Resources */ = {isa = PBXBuildFile; fileRef = 125B72052B76456B00D2A07B /* park.json */; };
+		125B72082B76457300D2A07B /* cross.json in Resources */ = {isa = PBXBuildFile; fileRef = 125B72072B76457300D2A07B /* cross.json */; };
+		125B720B2B76498400D2A07B /* CrossView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B720A2B76498400D2A07B /* CrossView.swift */; };
+		125B720D2B764A0E00D2A07B /* CrossDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B720C2B764A0E00D2A07B /* CrossDetailView.swift */; };
+		126C18242B7763AD00A58638 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126C18232B7763AD00A58638 /* HomeView.swift */; };
+		126C18262B776CB300A58638 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126C18252B776CB300A58638 /* MapView.swift */; };
+		126C18292B77791600A58638 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 126C18282B77791600A58638 /* CoreLocation.framework */; };
+		126C182B2B77792E00A58638 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 126C182A2B77792E00A58638 /* MapKit.framework */; };
+		126C182C2B777AF400A58638 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 126C181F2B77608E00A58638 /* Launch Screen.storyboard */; };
+		126C182E2B777EB300A58638 /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126C182D2B777EB300A58638 /* PhotoView.swift */; };
+		12720ED32B73EC0600423998 /* PetHomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12720ED22B73EC0600423998 /* PetHomeApp.swift */; };
+		12720ED52B73EC0600423998 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12720ED42B73EC0600423998 /* ContentView.swift */; };
+		12720ED72B73EC0800423998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12720ED62B73EC0800423998 /* Assets.xcassets */; };
+		12720EDA2B73EC0800423998 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12720ED92B73EC0800423998 /* Preview Assets.xcassets */; };
+		12720EDC2B73EC0800423998 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12720EDB2B73EC0800423998 /* Persistence.swift */; };
+		12720EDF2B73EC0800423998 /* PetHome.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 12720EDD2B73EC0800423998 /* PetHome.xcdatamodeld */; };
+		12720EEA2B73EC0900423998 /* PetHomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12720EE92B73EC0900423998 /* PetHomeTests.swift */; };
+		12720EF52B73EC0900423998 /* PetHomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12720EF42B73EC0900423998 /* PetHomeUITests.swift */; };
+		129C19312B74C30E00A83537 /* parkmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129C19302B74C30E00A83537 /* parkmodel.swift */; };
+		129C19362B74C88400A83537 /* ParkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129C19352B74C88400A83537 /* ParkDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12720EE62B73EC0900423998 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12720EC72B73EC0600423998 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12720ECE2B73EC0600423998;
+			remoteInfo = PetHome;
+		};
+		12720EF12B73EC0900423998 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12720EC72B73EC0600423998 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12720ECE2B73EC0600423998;
+			remoteInfo = PetHome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		125B71FD2B7626C100D2A07B /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		125B71FF2B7636A800D2A07B /* ParkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkView.swift; sourceTree = "<group>"; };
+		125B72032B76442400D2A07B /* crossmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crossmodel.swift; sourceTree = "<group>"; };
+		125B72052B76456B00D2A07B /* park.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = park.json; sourceTree = "<group>"; };
+		125B72072B76457300D2A07B /* cross.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cross.json; sourceTree = "<group>"; };
+		125B720A2B76498400D2A07B /* CrossView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossView.swift; sourceTree = "<group>"; };
+		125B720C2B764A0E00D2A07B /* CrossDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossDetailView.swift; sourceTree = "<group>"; };
+		126C181F2B77608E00A58638 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		126C18232B7763AD00A58638 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; usesTabs = 0; };
+		126C18252B776CB300A58638 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		126C18282B77791600A58638 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		126C182A2B77792E00A58638 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		126C182D2B777EB300A58638 /* PhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
+		12720ECF2B73EC0600423998 /* PetHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12720ED22B73EC0600423998 /* PetHomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetHomeApp.swift; sourceTree = "<group>"; };
+		12720ED42B73EC0600423998 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		12720ED62B73EC0800423998 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12720ED92B73EC0800423998 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		12720EDB2B73EC0800423998 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		12720EDE2B73EC0800423998 /* PetHome.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PetHome.xcdatamodel; sourceTree = "<group>"; };
+		12720EE02B73EC0800423998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12720EE52B73EC0900423998 /* PetHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12720EE92B73EC0900423998 /* PetHomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetHomeTests.swift; sourceTree = "<group>"; };
+		12720EEB2B73EC0900423998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12720EF02B73EC0900423998 /* PetHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12720EF42B73EC0900423998 /* PetHomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetHomeUITests.swift; sourceTree = "<group>"; };
+		12720EF62B73EC0900423998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		129C19302B74C30E00A83537 /* parkmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parkmodel.swift; sourceTree = "<group>"; };
+		129C19352B74C88400A83537 /* ParkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12720ECC2B73EC0600423998 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				126C182B2B77792E00A58638 /* MapKit.framework in Frameworks */,
+				126C18292B77791600A58638 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12720EE22B73EC0900423998 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12720EED2B73EC0900423998 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		126C18272B77791500A58638 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				126C182A2B77792E00A58638 /* MapKit.framework */,
+				126C18282B77791600A58638 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		12720EC62B73EC0600423998 = {
+			isa = PBXGroup;
+			children = (
+				12720ED12B73EC0600423998 /* PetHome */,
+				12720EE82B73EC0900423998 /* PetHomeTests */,
+				12720EF32B73EC0900423998 /* PetHomeUITests */,
+				12720ED02B73EC0600423998 /* Products */,
+				126C18272B77791500A58638 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		12720ED02B73EC0600423998 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12720ECF2B73EC0600423998 /* PetHome.app */,
+				12720EE52B73EC0900423998 /* PetHomeTests.xctest */,
+				12720EF02B73EC0900423998 /* PetHomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12720ED12B73EC0600423998 /* PetHome */ = {
+			isa = PBXGroup;
+			children = (
+				12720ED22B73EC0600423998 /* PetHomeApp.swift */,
+				129C19302B74C30E00A83537 /* parkmodel.swift */,
+				125B72072B76457300D2A07B /* cross.json */,
+				125B72052B76456B00D2A07B /* park.json */,
+				125B72032B76442400D2A07B /* crossmodel.swift */,
+				125B71FD2B7626C100D2A07B /* TabBar.swift */,
+				125B71FF2B7636A800D2A07B /* ParkView.swift */,
+				125B720C2B764A0E00D2A07B /* CrossDetailView.swift */,
+				125B720A2B76498400D2A07B /* CrossView.swift */,
+				12720ED42B73EC0600423998 /* ContentView.swift */,
+				126C18232B7763AD00A58638 /* HomeView.swift */,
+				129C19352B74C88400A83537 /* ParkDetailView.swift */,
+				126C18252B776CB300A58638 /* MapView.swift */,
+				126C182D2B777EB300A58638 /* PhotoView.swift */,
+				12720ED62B73EC0800423998 /* Assets.xcassets */,
+				12720EDB2B73EC0800423998 /* Persistence.swift */,
+				12720EE02B73EC0800423998 /* Info.plist */,
+				12720EDD2B73EC0800423998 /* PetHome.xcdatamodeld */,
+				12720ED82B73EC0800423998 /* Preview Content */,
+				126C181F2B77608E00A58638 /* Launch Screen.storyboard */,
+			);
+			path = PetHome;
+			sourceTree = "<group>";
+		};
+		12720ED82B73EC0800423998 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				12720ED92B73EC0800423998 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		12720EE82B73EC0900423998 /* PetHomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				12720EE92B73EC0900423998 /* PetHomeTests.swift */,
+				12720EEB2B73EC0900423998 /* Info.plist */,
+			);
+			path = PetHomeTests;
+			sourceTree = "<group>";
+		};
+		12720EF32B73EC0900423998 /* PetHomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				12720EF42B73EC0900423998 /* PetHomeUITests.swift */,
+				12720EF62B73EC0900423998 /* Info.plist */,
+			);
+			path = PetHomeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12720ECE2B73EC0600423998 /* PetHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12720EF92B73EC0900423998 /* Build configuration list for PBXNativeTarget "PetHome" */;
+			buildPhases = (
+				12720ECB2B73EC0600423998 /* Sources */,
+				12720ECC2B73EC0600423998 /* Frameworks */,
+				12720ECD2B73EC0600423998 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetHome;
+			productName = PetHome;
+			productReference = 12720ECF2B73EC0600423998 /* PetHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12720EE42B73EC0900423998 /* PetHomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12720EFC2B73EC0900423998 /* Build configuration list for PBXNativeTarget "PetHomeTests" */;
+			buildPhases = (
+				12720EE12B73EC0900423998 /* Sources */,
+				12720EE22B73EC0900423998 /* Frameworks */,
+				12720EE32B73EC0900423998 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12720EE72B73EC0900423998 /* PBXTargetDependency */,
+			);
+			name = PetHomeTests;
+			productName = PetHomeTests;
+			productReference = 12720EE52B73EC0900423998 /* PetHomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		12720EEF2B73EC0900423998 /* PetHomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12720EFF2B73EC0900423998 /* Build configuration list for PBXNativeTarget "PetHomeUITests" */;
+			buildPhases = (
+				12720EEC2B73EC0900423998 /* Sources */,
+				12720EED2B73EC0900423998 /* Frameworks */,
+				12720EEE2B73EC0900423998 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12720EF22B73EC0900423998 /* PBXTargetDependency */,
+			);
+			name = PetHomeUITests;
+			productName = PetHomeUITests;
+			productReference = 12720EF02B73EC0900423998 /* PetHomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12720EC72B73EC0600423998 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					12720ECE2B73EC0600423998 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					12720EE42B73EC0900423998 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 12720ECE2B73EC0600423998;
+					};
+					12720EEF2B73EC0900423998 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 12720ECE2B73EC0600423998;
+					};
+				};
+			};
+			buildConfigurationList = 12720ECA2B73EC0600423998 /* Build configuration list for PBXProject "PetHome" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12720EC62B73EC0600423998;
+			productRefGroup = 12720ED02B73EC0600423998 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12720ECE2B73EC0600423998 /* PetHome */,
+				12720EE42B73EC0900423998 /* PetHomeTests */,
+				12720EEF2B73EC0900423998 /* PetHomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12720ECD2B73EC0600423998 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				126C182C2B777AF400A58638 /* Launch Screen.storyboard in Resources */,
+				125B72082B76457300D2A07B /* cross.json in Resources */,
+				12720EDA2B73EC0800423998 /* Preview Assets.xcassets in Resources */,
+				12720ED72B73EC0800423998 /* Assets.xcassets in Resources */,
+				125B72062B76456B00D2A07B /* park.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12720EE32B73EC0900423998 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12720EEE2B73EC0900423998 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12720ECB2B73EC0600423998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12720EDC2B73EC0800423998 /* Persistence.swift in Sources */,
+				129C19362B74C88400A83537 /* ParkDetailView.swift in Sources */,
+				126C18242B7763AD00A58638 /* HomeView.swift in Sources */,
+				125B72002B7636A800D2A07B /* ParkView.swift in Sources */,
+				126C18262B776CB300A58638 /* MapView.swift in Sources */,
+				125B720B2B76498400D2A07B /* CrossView.swift in Sources */,
+				125B720D2B764A0E00D2A07B /* CrossDetailView.swift in Sources */,
+				12720ED52B73EC0600423998 /* ContentView.swift in Sources */,
+				126C182E2B777EB300A58638 /* PhotoView.swift in Sources */,
+				12720EDF2B73EC0800423998 /* PetHome.xcdatamodeld in Sources */,
+				12720ED32B73EC0600423998 /* PetHomeApp.swift in Sources */,
+				129C19312B74C30E00A83537 /* parkmodel.swift in Sources */,
+				125B72042B76442400D2A07B /* crossmodel.swift in Sources */,
+				125B71FE2B7626C100D2A07B /* TabBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12720EE12B73EC0900423998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12720EEA2B73EC0900423998 /* PetHomeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12720EEC2B73EC0900423998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12720EF52B73EC0900423998 /* PetHomeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12720EE72B73EC0900423998 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12720ECE2B73EC0600423998 /* PetHome */;
+			targetProxy = 12720EE62B73EC0900423998 /* PBXContainerItemProxy */;
+		};
+		12720EF22B73EC0900423998 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12720ECE2B73EC0600423998 /* PetHome */;
+			targetProxy = 12720EF12B73EC0900423998 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12720EF72B73EC0900423998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		12720EF82B73EC0900423998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12720EFA2B73EC0900423998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PetHome/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PetHome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.PetHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12720EFB2B73EC0900423998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PetHome/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PetHome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.PetHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		12720EFD2B73EC0900423998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PetHomeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.PetHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetHome.app/PetHome";
+			};
+			name = Debug;
+		};
+		12720EFE2B73EC0900423998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PetHomeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.PetHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetHome.app/PetHome";
+			};
+			name = Release;
+		};
+		12720F002B73EC0900423998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PetHomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.PetHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PetHome;
+			};
+			name = Debug;
+		};
+		12720F012B73EC0900423998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PetHomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.PetHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PetHome;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12720ECA2B73EC0600423998 /* Build configuration list for PBXProject "PetHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12720EF72B73EC0900423998 /* Debug */,
+				12720EF82B73EC0900423998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12720EF92B73EC0900423998 /* Build configuration list for PBXNativeTarget "PetHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12720EFA2B73EC0900423998 /* Debug */,
+				12720EFB2B73EC0900423998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12720EFC2B73EC0900423998 /* Build configuration list for PBXNativeTarget "PetHomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12720EFD2B73EC0900423998 /* Debug */,
+				12720EFE2B73EC0900423998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12720EFF2B73EC0900423998 /* Build configuration list for PBXNativeTarget "PetHomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12720F002B73EC0900423998 /* Debug */,
+				12720F012B73EC0900423998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		12720EDD2B73EC0800423998 /* PetHome.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				12720EDE2B73EC0800423998 /* PetHome.xcdatamodel */,
+			);
+			currentVersion = 12720EDE2B73EC0800423998 /* PetHome.xcdatamodel */;
+			path = PetHome.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 12720EC72B73EC0600423998 /* Project object */;
+}
